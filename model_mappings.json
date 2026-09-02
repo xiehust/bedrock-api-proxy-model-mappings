@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "description": "Default Anthropic model ID -> Bedrock model ID mappings for the Anthropic-Bedrock API Proxy. Pulled periodically by the proxy (MODEL_MAPPING_SYNC_URL). Per-deployment overrides live in the proxy's DynamoDB model-mapping table and take priority over these entries.",
+  "mappings": {
+    "claude-fable-5-1": "global.anthropic.claude-fable-5-1",
+    "claude-fable-5": "global.anthropic.claude-fable-5",
+    "claude-sonnet-5": "global.anthropic.claude-sonnet-5",
+    "claude-opus-5": "global.anthropic.claude-opus-5",
+    "claude-opus-4-8": "global.anthropic.claude-opus-4-8",
+    "claude-opus-4-7": "global.anthropic.claude-opus-4-7",
+    "claude-sonnet-4-6": "global.anthropic.claude-sonnet-4-6",
+    "claude-opus-4-6": "global.anthropic.claude-opus-4-6-v1",
+    "claude-opus-4-5-20251101": "global.anthropic.claude-opus-4-5-20251101-v1:0",
+    "claude-sonnet-4-5-20250929": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "claude-haiku-4-5-20251001": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "claude-3-5-haiku-20241022": "us.anthropic.claude-3-5-haiku-20241022-v1:0",
+
+    "claude-fable-5-1-us": "us.anthropic.claude-fable-5-1",
+    "claude-fable-5-1-us[1m]": "us.anthropic.claude-fable-5-1",
+    "claude-fable-5-1[1m]": "global.anthropic.claude-fable-5-1",
+    "claude-fable-5-us": "us.anthropic.claude-fable-5",
+    "claude-fable-5-us[1m]": "us.anthropic.claude-fable-5",
+    "claude-fable-5[1m]": "global.anthropic.claude-fable-5",
+    "claude-sonnet-5[1m]": "global.anthropic.claude-sonnet-5",
+    "claude-opus-5[1m]": "global.anthropic.claude-opus-5",
+    "claude-opus-4-8[1m]": "global.anthropic.claude-opus-4-8",
+    "claude-opus-4-7[1m]": "global.anthropic.claude-opus-4-7",
+    "claude-opus-4-6[1m]": "global.anthropic.claude-opus-4-6-v1",
+    "claude-sonnet-4-6[1m]": "global.anthropic.claude-sonnet-4-6",
+
+    "minimax.minimax-m2.5": "minimax.minimax-m2.5",
+    "zai.glm-5": "zai.glm-5",
+    "moonshotai.kimi-k2.5": "moonshotai.kimi-k2.5",
+    "gpt-5.5": "openai.gpt-5.5",
+    "gpt-5.4": "openai.gpt-5.4"
+  }
+}
