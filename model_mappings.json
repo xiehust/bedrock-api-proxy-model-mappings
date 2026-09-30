@@ -4,6 +4,7 @@
   "mappings": {
     "claude-fable-5-1": "global.anthropic.claude-fable-5-1",
     "claude-fable-5": "global.anthropic.claude-fable-5",
+    "claude-sonnet-5-5": "global.anthropic.claude-sonnet-5-5",
     "claude-sonnet-5": "global.anthropic.claude-sonnet-5",
     "claude-opus-5": "global.anthropic.claude-opus-5",
     "claude-opus-5-5": "global.anthropic.claude-opus-5-5",
@@ -22,6 +23,7 @@
     "claude-fable-5-us": "us.anthropic.claude-fable-5",
     "claude-fable-5-us[1m]": "us.anthropic.claude-fable-5",
     "claude-fable-5[1m]": "global.anthropic.claude-fable-5",
+    "claude-sonnet-5-5[1m]": "global.anthropic.claude-sonnet-5-5",
     "claude-sonnet-5[1m]": "global.anthropic.claude-sonnet-5",
     "claude-opus-5[1m]": "global.anthropic.claude-opus-5",
     "claude-opus-5-5[1m]": "global.anthropic.claude-opus-5-5",
@@ -33,6 +35,7 @@
     "minimax.minimax-m2.5": "minimax.minimax-m2.5",
     "zai.glm-5": "zai.glm-5",
     "moonshotai.kimi-k2.5": "moonshotai.kimi-k2.5",
+    "gpt-6.1-sol": "global.openai.gpt-6.1-sol",
     "gpt-6-luna": "global.openai.gpt-6-luna",
     "gpt-6-astra": "global.openai.gpt-6-astra",
     "gpt-6-sol": "global.openai.gpt-6-sol",
