@@ -36,6 +36,7 @@
     "zai.glm-5": "zai.glm-5",
     "moonshotai.kimi-k2.5": "moonshotai.kimi-k2.5",
     "gpt-6.1-sol": "global.openai.gpt-6.1-sol",
+    "gpt-6.1-terra": "global.openai.gpt-6.1-terra",
     "gpt-6-luna": "global.openai.gpt-6-luna",
     "gpt-6-astra": "global.openai.gpt-6-astra",
     "gpt-6-sol": "global.openai.gpt-6-sol",
